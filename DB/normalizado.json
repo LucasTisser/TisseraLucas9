@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "author": {
+      "1": {
+        "id": "1",
+        "nombre": "Pablo",
+        "apellido": "Perez",
+        "edad": "20442654",
+        "alias": "CABA 123",
+        "avatar": "foto1.png"
+      },
+      "2": {
+        "id": "2",
+        "nombre": "Nicole",
+        "apellido": "Gonzalez",
+        "edad": "20442638",
+        "alias": "CABA 456",
+        "avatar": "foto2.png"
+      },
+      "3": {
+        "id": "3",
+        "nombre": "Pedro",
+        "apellido": "Mei",
+        "edad": "20446938",
+        "alias": "CABA 789",
+        "avatar": "foto3.png"
+      }
+    },
+    "comments": {
+      "324": {
+        "id": "324",
+        "commenter": "2"
+      },
+      "325": {
+        "id": "325",
+        "commenter": "3"
+      },
+      "1324": {
+        "id": "1324",
+        "commenter": "1"
+      },
+      "1325": {
+        "id": "1325",
+        "commenter": "3"
+      },
+      "2324": {
+        "id": "2324",
+        "commenter": "2"
+      },
+      "2325": {
+        "id": "2325",
+        "commenter": "1"
+      }
+    },
+    "articles": {
+      "123": {
+        "id": "123",
+        "author": "1",
+        "title": "My awesome blog post",
+        "comments": ["324", "325"]
+      },
+      "1123": {
+        "id": "1123",
+        "author": "2",
+        "title": "My awesome blog post",
+        "comments": ["1324", "1325"]
+      },
+      "2123": {
+        "id": "2123",
+        "author": "3",
+        "title": "My awesome blog post",
+        "comments": ["2324", "2325"]
+      }
+    },
+    "posts": {
+      "1001": {
+        "id": "1001",
+        "posts": ["123", "1123", "2123"]
+      }
+    }
+  },
+  "result": "1001"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "author": {
+      "id": 1,
+      "nombre": "lucas",
+      "apellido": "tissera",
+      "edad": "25",
+      "alias": "tisser",
+      "avatar": "ti.png"
+    },
+    "text": "TEXTO1"
+  },
+  {
+    "author": {
+      "id": 2,
+      "nombre": "lucas",
+      "apellido": "tissera",
+      "edad": "25",
+      "alias": "tisser",
+      "avatar": "ti.png"
+    },
+    "text": "TEXTO2"
+  },
+  {
+    "author": {
+      "id": 3,
+      "nombre": "lucas",
+      "apellido": "tissera",
+      "edad": "25",
+      "alias": "tisser",
+      "avatar": "ti.png"
+    },
+    "text": "TEXTO3"
+  },
+  {
+    "author": {
+      "id": 4,
+      "nombre": "lucas",
+      "apellido": "tissera",
+      "edad": "25",
+      "alias": "tisser",
+      "avatar": "ti.png"
+    },
+    "text": "TEXTO4"
+  }
+]
